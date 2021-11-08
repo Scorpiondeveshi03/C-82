@@ -36,7 +36,7 @@ function my_mousemove(e)
         ctx.strokeStyle = color;
         ctx.lineWidth= width_of_line;
 
-        ctx.moveTO(lpox,lpoy);
+        ctx.moveTo(lpox,lpoy);
         
         ctx.lineTo(current_position_of_x, current_position_of_mouse_y);
         ctx.stroke();
